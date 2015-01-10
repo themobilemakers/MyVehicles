@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SportsCar.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    Car *myCar = [[Car alloc] init];
+    [myCar accelerateByAmount:50];
+    NSLog(@"MY CAR: %li", (long)myCar.speed);
+
+    SportsCar *porsche = [[SportsCar alloc]init];
+    [porsche accelerateByAmount:50];
+    NSLog(@"SPORTS CAR: %li", (long)porsche.speed);
 }
 
 - (void)didReceiveMemoryWarning {

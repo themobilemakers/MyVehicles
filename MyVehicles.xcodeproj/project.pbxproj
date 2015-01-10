@@ -14,6 +14,10 @@
 		B171F98F1A60A31900BE60C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B171F98E1A60A31900BE60C5 /* Images.xcassets */; };
 		B171F9921A60A31900BE60C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B171F9901A60A31900BE60C5 /* LaunchScreen.xib */; };
 		B171F99E1A60A31900BE60C5 /* MyVehiclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B171F99D1A60A31900BE60C5 /* MyVehiclesTests.m */; };
+		B171F9A91A60A34800BE60C5 /* WheeledVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = B171F9A81A60A34800BE60C5 /* WheeledVehicle.m */; };
+		B171F9AC1A60A41400BE60C5 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B171F9AB1A60A41400BE60C5 /* Car.m */; };
+		B171F9AF1A60A4E300BE60C5 /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = B171F9AE1A60A4E300BE60C5 /* Truck.m */; };
+		B171F9B21A60A55900BE60C5 /* SportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = B171F9B11A60A55900BE60C5 /* SportsCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		B171F9971A60A31900BE60C5 /* MyVehiclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVehiclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B171F99C1A60A31900BE60C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B171F99D1A60A31900BE60C5 /* MyVehiclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVehiclesTests.m; sourceTree = "<group>"; };
+		B171F9A71A60A34800BE60C5 /* WheeledVehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WheeledVehicle.h; path = ../WheeledVehicle.h; sourceTree = "<group>"; };
+		B171F9A81A60A34800BE60C5 /* WheeledVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WheeledVehicle.m; path = ../WheeledVehicle.m; sourceTree = "<group>"; };
+		B171F9AA1A60A41400BE60C5 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		B171F9AB1A60A41400BE60C5 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B171F9AD1A60A4E300BE60C5 /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		B171F9AE1A60A4E300BE60C5 /* Truck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Truck.m; sourceTree = "<group>"; };
+		B171F9B01A60A55900BE60C5 /* SportsCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsCar.h; sourceTree = "<group>"; };
+		B171F9B11A60A55900BE60C5 /* SportsCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,14 @@
 		B171F9801A60A31900BE60C5 /* MyVehicles */ = {
 			isa = PBXGroup;
 			children = (
+				B171F9B01A60A55900BE60C5 /* SportsCar.h */,
+				B171F9B11A60A55900BE60C5 /* SportsCar.m */,
+				B171F9AA1A60A41400BE60C5 /* Car.h */,
+				B171F9AB1A60A41400BE60C5 /* Car.m */,
+				B171F9AD1A60A4E300BE60C5 /* Truck.h */,
+				B171F9AE1A60A4E300BE60C5 /* Truck.m */,
+				B171F9A71A60A34800BE60C5 /* WheeledVehicle.h */,
+				B171F9A81A60A34800BE60C5 /* WheeledVehicle.m */,
 				B171F9851A60A31900BE60C5 /* AppDelegate.h */,
 				B171F9861A60A31900BE60C5 /* AppDelegate.m */,
 				B171F9881A60A31900BE60C5 /* ViewController.h */,
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B171F9AC1A60A41400BE60C5 /* Car.m in Sources */,
 				B171F98A1A60A31900BE60C5 /* ViewController.m in Sources */,
+				B171F9A91A60A34800BE60C5 /* WheeledVehicle.m in Sources */,
+				B171F9AF1A60A4E300BE60C5 /* Truck.m in Sources */,
 				B171F9871A60A31900BE60C5 /* AppDelegate.m in Sources */,
+				B171F9B21A60A55900BE60C5 /* SportsCar.m in Sources */,
 				B171F9841A60A31900BE60C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
